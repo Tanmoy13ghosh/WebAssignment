@@ -1,1 +1,44 @@
-/* start your css here */
+.div1{
+    height: 70vh;
+    width: 30vw;
+    margin: 2rem auto;
+    border: 50px solid black ;
+
+}
+.canvas{
+    background-color: rgb(62, 17, 17);
+    height: 90%;
+    width: 80%;
+    margin:2rem auto;
+}
+.image1{
+ background-color: #eeb660;
+ height: 25%;
+ width: 90%;
+ border-radius :15px;
+ margin: 20px auto;
+    box-shadow: 0 0 3px 3px #eeb660; 
+    transform: rotate(-0.6deg); 
+    filter: blur(1px);
+}
+.image2{
+    height: 35%;
+    width: 95%;
+    border-radius: 5%;
+    background-color: #8e0300;
+    margin: 0 auto 20px;
+      box-shadow: 0 0 3px 3px #8e0300; 
+      transform: rotate(-0.6deg); 
+      filter: blur(1px);
+}
+.image3{
+    height: 25%;
+    width: 90%;
+    border-radius: 20px 25px 60px 10px;
+    background-color:#b10401;
+    margin:0 20px;
+    padding: 10px 0px;
+      box-shadow: 0 0 3px 3px #b10401; 
+      transform: rotate(-0.6deg); 
+      filter: blur(2px);
+}
