@@ -1,1 +1,35 @@
-/* start your css here */
+.main-cointainer{
+    height: 10vh;
+    width:55vw;
+    background-color:rgb(20, 9, 50);
+    display: flex;
+}
+#voot{
+    color: white;
+}
+.sub-container1,
+.sub-container2,
+.sub-container3,
+.sub-container4,
+.sub-container5,
+.sub-container6,
+.sub-container7
+{
+    color:rgb(157, 154, 165);
+    font-size: 17px;
+    margin: 15px 10px 0px 20px;
+    padding: 0px 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+i{
+    height: 20px;
+    width: 20px;
+    color:white;
+    margin: 10px 0 0 0;
+  }

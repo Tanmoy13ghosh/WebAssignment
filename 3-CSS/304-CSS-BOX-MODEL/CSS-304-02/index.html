@@ -10,15 +10,16 @@
   <body>
     <div class="main-cointainer">
     <h2 id="heading"><B>Subscribe to MammothNews</B></h2>
-
-    <input type="text"placeholder="Name*" class="input"><br>
-    <input type="text" placeholder="Surname*"class="input"><br>
-    <input type="email" placeholder="Email*"class="input"><br>
-    <input type="date" placeholder="Birthday"class="input"><br>
-    <div>
-    <input type="checkbox" class="checkbox">
+    <div class="inputs">
+    <input type="text"placeholder="Name*" class="input"/><br>
+    <input type="text" placeholder="Surname*"class="input"/><br>
+    <input type="email" placeholder="Email*"class="input"/><br>
+    <input type="text" placeholder="Birthday"class="input" onfocus="(this.type='date')"/><br>
+    </div>
+    <div class="checkboxdiv">
+    <input type="checkbox" class="check"/>
     <h4 id="terms"><I>I have read and accept the terms and conditions.
-      <U>View our Terms and Conditions</U></I>
+      <br><U>View our Terms and Conditions</U></I>
     </h4>
     </div>
     <button id="button">Submit</button>
