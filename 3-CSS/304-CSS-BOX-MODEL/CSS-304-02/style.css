@@ -1,1 +1,42 @@
 /* start your css here */
+.main-cointainer{
+    height: 80vh;
+    width: 38vw;
+    background-color: black;
+}
+#heading{
+    margin: 0px  7rem;
+    padding: 1rem 1rem;
+    color: white;
+}
+p{
+    color: white;
+}
+.input{
+    height: 50px;
+    width:75%;
+    margin: 10px 30px;
+    padding: 0rem 2rem;
+    font-size: 1rem;
+}
+.checkbox{
+    height: 40px;
+    width: 30px;
+    /* border-radius: 10px 10px; */
+    margin:1px 30px;
+        display: flex;
+     justify-content: center;
+}
+#terms{
+    color:white;
+    padding: 0px 20px;
+}
+#button{
+    height: 3rem;
+    width: 10rem;
+    border: 2px solid white;
+    margin:0px 200px;
+    background-color: black;
+    color: white;
+    font-size: larger;
+}
