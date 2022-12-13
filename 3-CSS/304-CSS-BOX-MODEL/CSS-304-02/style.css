@@ -19,11 +19,12 @@
 }
 .checkboxdiv{
     display: flex;
+    border-radius: 50%;
 }
 .check{
     height: 65px;
     width: 35px;
-    border-radius: 10px;
+    border-radius: 50%;
     margin:2px 30px;
 }
 #terms{
